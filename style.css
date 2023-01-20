@@ -1,0 +1,307 @@
+ 						/*-----Google Fonts-----*/
+ @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+	                       /*-----Common CSS-----*/
+
+body{
+	font-family: 'Roboto', sans-serif;
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+}
+img{
+	width: 100%;
+	height: auto;
+}
+
+
+								/*-----Start Main CSS-----*/
+
+
+								/*----- Header Area-----*/
+
+.style-header{
+	
+}
+.style-header-top{
+	background-color: #e74c3c;
+}
+.style-header-top .style-left{}
+.style-header-top .style-left .menu-icon {}
+.style-left .menu-icon i{
+	color: #fff;
+	font-size: 20px;
+	padding: 23px 0 0;
+}
+.menu-icon i:hover{
+	cursor: pointer;
+}
+.menu{
+	position: absolute;
+	top: 0;
+	left: -255px;
+	background-color: #fff;
+	height: 50%;
+	width: 250px;
+	padding: 20px 0;
+	box-shadow: 1px 1px 2px #ddd;
+}
+.menu ul{}
+.menu ul li{
+	list-style: none;
+}
+.menu ul li a{
+	color: #7f8c8d;
+	padding: 10px 0;
+	display: block;
+
+}
+.menu-close{
+	float: right;
+	position: absolute;
+	top: 15px;
+	right: 20px;
+	font-size: 20px;
+	color: #e74c3c;
+}
+
+
+/*-----log in / sign up -----*/
+
+.style-header-top .style-right{
+	overflow: hidden;
+}
+.style-right ul{
+	float: right;
+	display: flex; 
+	list-style: none;
+	padding: 0;
+}
+.style-right ul li{
+	color: #fff;
+	padding: 20px 15px 5px;
+
+}
+.style-right ul li a{
+	color: #fff;
+}
+
+
+
+.me h2{
+	text-align: center;
+	padding: 10px 0;
+	color: #fff;
+	position: absolute;
+	top: 5px;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+
+/*-------------- logo--------------*/
+
+.style-header-bottom{
+	padding: 70px 0 0;
+
+}
+.style-logo{
+	width: 30%;
+	margin: 0 auto;
+
+}
+
+
+/*--------------- slider prev-next ---------------*/
+
+.style-slider{
+	padding-top: 70px ;
+}
+
+
+
+.owl-nav .owl-prev span{
+	position: absolute;
+	top: 50%;
+	left: 3%;
+	font-size: 90px;
+	transform: translateY(-70%);
+	
+}
+.owl-nav .owl-prev span:hover{
+	color:#e74c3c;
+	
+}
+
+.owl-nav .owl-next span{
+	position: absolute;
+	top: 50%;
+	right: 3%;
+	font-size: 90px;
+	transform: translateY(-70%);
+}
+.owl-nav .owl-next span:hover{
+	color: #e74c3c;
+}
+
+
+
+/*--------------- slider Ends---------------*/
+
+.style-des-title{
+	margin:60px 0 ;
+}
+.actual-title{
+	text-align: center;
+}
+.actual-title h2{
+	font-size: 50px;
+	padding-bottom:25px ;
+}
+.actual-title p{
+	padding-bottom: 60px;
+	color: #7f8c8d;
+	font-size: 18px;
+}
+
+/*----------Description style start-------------*/
+
+.style-des{
+	text-align: center;
+}
+.style-des-icon{
+	height:60px;
+	width: 60px;
+	background: linear-gradient( to right,#c0392b 50%,#e74c3c 50%);
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.style-des-icon i{
+	color: #fff;
+	font-size: 30px;
+}
+.style-des-pera{
+	padding: 25px 0;
+}
+.style-des-pera h4{
+	font-size: 30px;
+	padding: 10px 0;
+}
+.style-des-pera p{
+	color: #7f8c8d;
+	font-size: 15px;
+
+
+}
+
+
+
+
+
+
+/*----------Description style start-------------*/
+
+
+
+/*--------------- isotop apply on product---------------*/
+
+.style-products{
+	margin: 40px 0 80px 0;
+
+}
+.product-title{
+	padding: 70px 0;
+	text-align: center;
+}
+.product-title .op{
+	text-align: center;
+	font-size: 50px;
+}
+.product-title p{
+	color: #7f8c8d;
+}
+.grid{
+	margin-top: 25px;
+}
+.single-product{
+	position: relative;
+	overflow: hidden;
+}
+.single-product img{
+	margin: 10px 0;
+}
+.price{
+	background-color:#e74c3c ;
+	height: 50px;
+	width: 50px;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items:center ;
+	color: #fff;
+	position: absolute;
+	top: 20px;
+	right: 10px;
+}
+.shop{
+	background-color: #e74c3c;
+	width: 100%;
+	height: 30px;
+	position: absolute;
+	bottom: -30px;
+	transition: .7s;
+}
+
+.shop a {
+	color: #fff;
+	position: absolute;
+	top: 5px;
+	left: 40%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+.single-product:hover .shop{
+	bottom: 0;
+}
+/*--------------- Log In form---------------*/
+
+.login-form{
+	margin: 80px 0;
+}
+
+ .login-form input{
+	margin-top: 20px;
+}
+ .login-form h2{
+	padding-bottom: 25px;
+}
+
+
+/*--------------- Sing Up & Log In form---------------*/
+
+.signup-form{
+	margin: 80px 0;
+
+}
+.signup-form input{
+	margin-top: 20px;
+}
+.signup-form h2{
+	padding-bottom: 25px;
+}
+
+
+
+
+
+
+
+
